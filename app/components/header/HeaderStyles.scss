@@ -1,0 +1,104 @@
+.hero-container {
+  font-family: 'DM_Sans' sans-serif;
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+  height: 35rem;
+  background-image: url("/images/home/Poster.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+
+  &_header {
+    padding-top: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+    .logo {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    .search-container {
+      width: 40%;
+form{
+      .search-input {
+        padding: 0.5rem;
+        outline: none;
+        background: transparent;
+        border-radius: 5%;
+        border: 1px #eee solid;
+        width: 100%;
+      }
+      }
+    }
+    .sign-in {
+      font-size: 1.5rem;
+      font-weight: 500;
+      span {
+        background: #BE123C;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  &_content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    align-items: flex-start;
+
+    &_title {
+      font-size: 48px;
+      font-weight: 700;
+    }
+    &_ratings {
+      display: flex;
+      align-items: center;
+      font-weight: 400;
+      font-size: 12px;
+
+      .imdb-icon {
+        width: 35px;
+        margin-right: 0.5rem;
+      }
+
+      .rt-icon {
+        width: 35px;
+        margin-left: 4rem;
+        margin-right: 0.5rem;
+      }
+    }
+
+    &_overview {
+      margin-top: 1rem;
+      font-size: 14px;
+      line-height: 18px;
+      .poster {
+        position: absolute;
+        top: 25%;
+        right: 10%;
+      }
+    }
+
+    &_button {
+      padding: 0.5rem;
+      font-size: 14px;
+      font-weight: 700;
+      padding-left: 0;
+      background: #BE123C;
+      width: 30%;
+      margin-top: 0.5rem;
+      text-transform: uppercase;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      .play {
+        margin: 0 1rem;
+      }
+    }
+  }
+}
