@@ -26,7 +26,9 @@ export const getMovies = async (query) => {
 };
 
 export const getMovieDetails = async (id) => {
-  const result = await fetch(`${BASE_URL}/3/movie/${id}?language=en-US&api_key=${API_KEY}`);
+  const result = await fetch(
+    `${BASE_URL}/3/movie/${id}?language=en-US&api_key=${API_KEY}`
+  );
   const data = await result.json();
   return data;
 };
