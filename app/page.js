@@ -1,7 +1,7 @@
 import { getTopTenMovies, fetchBGSlides } from "@/utils/apiRequests";
 import './pageStyles.scss'
 import Card from "./components/card/Card";
-import Header from "./components/Header/Header";
+import Header from "./components/header/Header";
 
 export default async function HomePage() {
   const movies = await getTopTenMovies();
