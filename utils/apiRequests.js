@@ -1,5 +1,5 @@
-const API_KEY = process.env.MOVIE_API_KEY;
-const BASE_URL = process.env.MOVIE_BASE_URL;
+const API_KEY = process.env.NEXT_PUBLIC_API_URL
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL
 
 export const fetchBGSlides = async () => {
   const result = await fetch(

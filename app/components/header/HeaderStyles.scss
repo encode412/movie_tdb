@@ -17,8 +17,13 @@
     justify-content: space-around;
 
     .logo {
+      display: flex;
+      align-items: center;
       font-size: 2rem;
       font-weight: 500;
+      img {
+        margin-right: 1rem;
+      }
     }
 
     .search-container {
@@ -35,8 +40,20 @@ form{
       }
     }
     .sign-in {
+      display: flex;
+      align-items: center;
+      width:10%;
       font-size: 1.5rem;
       font-weight: 500;
+      .bars {
+      background: #BE123C;
+      margin-left: 1rem;
+    
+    color: #fff;
+    border-radius: 50%;
+    // width: 20%;
+    // height: 5%;
+      }
       span {
         background: #BE123C;
         border-radius: 50%;

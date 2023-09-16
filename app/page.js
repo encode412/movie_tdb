@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 
 export default async function HomePage() {
   const movies = await getTopTenMovies();
+  console.log(process.env.NEXT_PUBLIC_BASE_URL)
   const slicedMovies = movies.slice(0, 10)
   // console.log(movies)
   const bgSlides = await fetchBGSlides();

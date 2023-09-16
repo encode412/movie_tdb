@@ -72,10 +72,8 @@ const Header = ({ bgSlides }) => {
               </form>
             </div>
             <div className='sign-in'>
-              Sign in{" "}
-              <span>
-                <FaBars />
-              </span>
+           Sign in{" "} <FaBars size={2} className='bars' /> 
+              
             </div>
           </div>
           <div className='hero-container_content'>
